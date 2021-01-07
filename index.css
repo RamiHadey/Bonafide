@@ -1,0 +1,35 @@
+a.nav-link:hover{
+    text-decoration: underline;
+}
+a.nav-link{
+    text-decoration: overline;
+}
+div#navbar{
+    display: block;
+    margin-left: 493px;
+}
+#street{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.container .shop{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.container .shop:hover{
+    background-color: #D70FFF;
+}
