@@ -12,9 +12,12 @@ a.nav-link{
 h1#name{
     position: fixed;
 }
-.pop{
+.left{
     z-index: 20;
-    transform: translatey(110px);
+    transform: translate(0px, 110px);
+}
+.right{
+    transform: translate(0, -100px);
 }
 
 nav {
@@ -64,10 +67,9 @@ nav {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
 }
 .container{
-    margin-top: 80px;
+    margin-top: 0px;
     position: relative;
    
 }
