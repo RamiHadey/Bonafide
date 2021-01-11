@@ -9,16 +9,43 @@ a.nav-link{
     display: block;
     margin-left: 493px;
 } */
+body{
+    background: linear-gradient(270deg, #b8b6b5, rgb(161, 141, 161), #b8b6b5);
+}
+/*This section is for second row of images  */
 h1#name{
     position: fixed;
 }
 .left{
-    z-index: 20;
+    z-index: 18;
     transform: translate(0px, 110px);
+    margin-left: 1.5%;
 }
 .right{
-    transform: translate(0, -100px);
+    transform: translate(0, -500px);
 }
+.pop{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+aside img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Collabs */
+section.collabs h2{
+    letter-spacing: 35px;
+}
+section.collabs{
+    text-align: center;
+    transform: translate(0px, -420px);
+}
+div.col{
+    border-radius: 20px;
+}
+
 
 nav {
     margin: 0px;
@@ -32,7 +59,7 @@ nav {
     left:0;
     right:0;
     width: 100%;
-    z-index: 19;
+    z-index: 20;
 }
         ul {
         list-style: none;
@@ -71,7 +98,6 @@ nav {
 .container{
     margin-top: 0px;
     position: relative;
-   
 }
 .shop{
     position: absolute;
