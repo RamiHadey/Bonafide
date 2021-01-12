@@ -10,10 +10,14 @@ section > div.row{
   border: 1px rgb(73, 73, 73) solid;
 }
 
+
 /*Pictures*/
 a > img{
   border: 1px rgb(238, 238, 238) solid;
 }
 
+#products{
+  margin-top: 20px;
+}
 
 
