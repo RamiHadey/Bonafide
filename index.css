@@ -34,6 +34,16 @@ aside img{
     margin-bottom: 10px;
 }
 
+a > img{
+    border: 1px rgb(238, 238, 238) solid;
+}
+  
+a > img:hover{
+    opacity: 70%;
+}
+  
+
+
 /*Collabs */
 section.collabs h2{
     letter-spacing: 35px;
@@ -46,6 +56,13 @@ div.col{
     border-radius: 20px;
 }
 
+
+
+
+
+
+
+/*Navbar*/
 
 nav {
     margin: 0px;
@@ -115,6 +132,7 @@ nav {
     text-align: center;
     text-decoration: none;
 }
+
 .container .shop:hover{
     background-color: #555;
     color: #D70FFF;
