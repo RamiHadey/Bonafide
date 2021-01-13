@@ -16,14 +16,21 @@ body{
 h1#name{
     position: fixed;
 }
-.left{
+/* .left{
     z-index: 18;
     transform: translate(0px, 110px);
     margin-left: 1.5%;
 }
 .right{
     transform: translate(0, -500px);
+    
+} */
+
+
+.col-11{
+    margin-top: 156px;
 }
+
 .pop{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -32,6 +39,11 @@ h1#name{
 aside img{
     margin-top: 10px;
     margin-bottom: 10px;
+    
+}
+aside{
+    margin-top: 70px;
+    margin-left: 20px;
 }
 
 a > img{
@@ -50,7 +62,7 @@ section.collabs h2{
 }
 section.collabs{
     text-align: center;
-    transform: translate(0px, -420px);
+    transform: translate(0px, 20px);
 }
 div.col{
     border-radius: 20px;
@@ -93,7 +105,7 @@ nav {
             text-decoration: underline;
             
         }
-        a:hover{
+        li a:hover{
             color: #D70FFF;
         }
         a {
@@ -131,6 +143,7 @@ nav {
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
+    z-index: 20;
 }
 
 .container .shop:hover{

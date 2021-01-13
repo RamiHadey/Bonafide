@@ -1,0 +1,59 @@
+div.product{
+    margin-top: 100px;
+}
+/*Buttons for the adding to cart and such*/
+.add{
+    
+    background-color: rgb(255, 255, 255);
+    color: #D70FFF;
+    font-size: 15px;
+    padding: 8px 2px;
+    border: none;
+    cursor: pointer;
+    border: 1px #D70FFF solid;
+    text-align: center;
+    text-decoration: none;
+    z-index: 19;
+}
+
+.add:hover{
+    text-decoration: underline;
+    filter: opacity(70%);
+}
+.add{
+    margin-top: 20px;
+}
+
+.buy{
+    margin-top: 10px;
+}
+
+.buy{
+    background-color: #D70FFF;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 8px 2px;
+    border: none;
+    cursor: pointer;
+    border: 1px rgb(255, 255, 255) solid;
+    text-align: center;
+    text-decoration: none;
+    z-index: 19;
+}
+
+.buy:hover{
+    text-decoration: underline;
+    filter: opacity(70%);
+}
+
+
+/*Image stuff*/
+.shirt:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+img{
+    margin-left: 95px;
+}
