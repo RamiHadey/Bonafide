@@ -1,0 +1,26 @@
+@media (min-aspect-ratio: 16/9) {
+    #video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    #video {
+        display: none;
+    }
+    body {
+        background: url('Video Frame.png');
+        background-size: cover;
+    }
+    #about{
+        margin-top: 500px;
+    }
+}
