@@ -1,3 +1,6 @@
+
+
+/*This changes the aspect ratio of the page */
 @media (min-aspect-ratio: 16/9) {
     #video {
         width: 100%;
@@ -12,6 +15,7 @@
     }
 }
 
+/*The video won't play when size of phone*/
 @media (max-width: 600px){
     #video {
         display: none;
