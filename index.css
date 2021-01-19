@@ -201,9 +201,15 @@ p.FAQ{
 }
 
 
+/*Timer*/
+#timer{
+    text-align: center;
+    padding: 10px blue;
+}
 
 
 
+/*footer*/
 footer{
     margin-top: 400px;
     text-align: center;
