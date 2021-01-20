@@ -204,7 +204,11 @@ p.FAQ{
 /*Timer*/
 #timer{
     text-align: center;
-    padding: 10px blue;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgba(174, 29, 211, 0.473);
+    width: 50%px;
+    border-radius: 15px;
 }
 
 
